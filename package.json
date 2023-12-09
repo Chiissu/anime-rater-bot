@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "scripts": {
     "start": "bun run src/index.ts",
-    "debug": "bun --inspect=localhost:4000 src/index.ts"
+    "debug": "bun --inspect=localhost src/index.ts"
   },
   "devDependencies": {
     "bun-types": "latest"
