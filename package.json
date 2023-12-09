@@ -4,7 +4,8 @@
   "version": "1.0.0",
   "scripts": {
     "start": "bun run src/index.ts",
-    "debug": "bun --inspect=localhost src/index.ts"
+    "debug": "bun --inspect=localhost src/index.ts",
+    "docker": "docker build --pull -t anime-rater . && docker run -d anime-rater"
   },
   "devDependencies": {
     "bun-types": "latest"
