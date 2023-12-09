@@ -1,6 +1,7 @@
 {
   "name": "animerater",
   "module": "src/index.ts",
+  "version": "1.0.0",
   "scripts": {
     "start": "bun run src/index.ts",
     "debug": "bun --inspect=localhost:4000 src/index.ts"
